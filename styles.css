@@ -1,0 +1,120 @@
+/* Set the background color for the entire page */
+body {
+  background-color: #0077b6; /* Oceanic blue color */
+  margin: 0; /* Remove default margin to prevent white space around the page */
+  padding: 0; /* Remove default padding */
+}
+
+/* CSS for the header */
+h1 {
+  text-align: center; /* Center the heading */
+  color: white; /* Text color */
+  background-color: #003f5c; /* Background color for the header */
+  padding: 20px; /* Add some padding for spacing */
+}
+h2 {
+  text-align: center; /* Center the heading */
+  color: white; /* Text color */
+  background-color: #18a5e6; /* Background color for the header */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+button {
+  text-align: center; /* Center the heading */
+  color: white; /* Text color */  
+  background-color: #18a5e6; /* Background color for the header */
+  padding: 20px 35px; /* Add some padding for spacing */
+  margin: 30px 45%;
+}
+/* CSS for the tooltip */
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+/* CSS class for the selected path */
+
+/* Define colors for different rating levels */
+.rating-1 {
+  fill: red;
+}
+
+.rating-2 {
+  fill: orange;
+}
+
+.rating-3 {
+  fill: rgb(172, 172, 18);
+}
+
+.rating-4 {
+  fill: blue;
+}
+
+.rating-5 {
+  fill: purple;
+}
+
+/* Center the map container */
+#map-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  /* align-items: center; Center vertically */
+  height: 100vh; /* Use 100% of the viewport height */
+  margin: 120px auto 150px;
+}
+#level-indicator {
+  position: absolute;
+  top: auto;
+  right: 150px;
+}
+
+.level-list {
+  background-color: rgba(223, 223, 223, 0.9);
+  color: black;
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Define colors for different rating levels */
+.level-5 .color-box {  
+  background-color: purple;
+  flex: 20%;
+  padding: 5px;
+}
+
+.level-4 .color-box {
+  background-color: blue;
+  flex: 20%;
+  padding: 5px;
+}
+
+.level-3 .color-box {
+  background-color: rgb(172, 172, 18);
+  flex: 20%;
+  padding: 5px;
+}
+
+.level-2 .color-box {
+  background-color: orange;
+  flex: 20%;
+  padding: 5px;
+}
+
+.level-1 .color-box {
+  background-color: red;
+  flex: 20%;
+  padding: 5px;
+}
+
+.level-0 .color-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  flex: 20%;
+  padding: 5px;
+}
