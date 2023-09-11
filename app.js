@@ -69,7 +69,7 @@ svgPaths.forEach((path) => {
     // Toggle the "selected" class to change the color on click
     path.classList.toggle("selected");
     const pathName = path.getAttribute("name"); // Get the ID attribute of the clicked path
-    console.log("Clicked path ID:", pathName); // Print the ID to the console (you can use it as needed)
+    // console.log("Clicked path ID:", pathName); // Print the ID to the console (you can use it as needed)
 
     // Remove any existing rating class
     path.classList.remove("rating-1", "rating-2", "rating-3", "rating-4", "rating-5");
@@ -209,7 +209,7 @@ svgPaths.forEach((path) => {
     // After updating the count, call the function to update the display
     updateCountDisplay();
 
-    console.log(count);
+    // console.log(count);
   });
 });
 
@@ -222,6 +222,7 @@ resetButton.addEventListener("click", () => {
 
   // Reset count to 0
   count = 0;
+  updateCountDisplay()
 });
 
 function getUserChoice() {

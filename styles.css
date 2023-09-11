@@ -19,13 +19,6 @@ h2 {
   padding: 20px; /* Add some padding for spacing */
 }
 
-button {
-  text-align: center; /* Center the heading */
-  color: white; /* Text color */  
-  background-color: #18a5e6; /* Background color for the header */
-  padding: 20px 35px; /* Add some padding for spacing */
-  margin: 30px 45%;
-}
 /* CSS for the tooltip */
 #tooltip {
   position: absolute;
@@ -117,4 +110,12 @@ button {
   border: 1px solid #ccc;
   flex: 20%;
   padding: 5px;
+}
+
+#reset-button {
+  text-align: center; /* Center the heading */
+  color: white; /* Text color */  
+  background-color: #18a5e6; /* Background color for the header */
+  padding: 20px 35px; /* Add some padding for spacing */
+  margin: 30px 45%;
 }
